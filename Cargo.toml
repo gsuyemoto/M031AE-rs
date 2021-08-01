@@ -1,0 +1,23 @@
+[package]
+name = "m031ae"
+version = "0.1.0"
+authors = ["gsuyemoto <gary@>"]
+description = "Peripheral access crate for Nuvoton M031 and M032"
+documentation = "https://docs.rs/m031ae"
+repository = "https://github.com/gsuyemoto/M031AE-rs"
+keywords = ["arm", "cortex-m", "m032", "m031", "nuvoton"]
+categories = ["embedded"]
+license = "MIT"
+
+[dependencies]
+bare-metal = "0.2.0"
+cortex-m = "0.6"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.6"
+
+[features]
+rt = ["cortex-m-rt/device"]
+
