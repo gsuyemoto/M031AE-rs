@@ -10,7 +10,6 @@ categories = ["embedded"]
 license = "MIT"
 
 [dependencies]
-bare-metal = "0.2.0"
 cortex-m = "0.6"
 vcell = "0.1.0"
 
